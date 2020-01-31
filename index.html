@@ -1,23 +1,24 @@
 <!DOCTYPE html>
  <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Balancing Act</title>
-    <link rel="stylesheet" href="./styles.css">
-  </head>
-  <body>
+ <head>
+  <meta charset="utf-8">
+  <title>Balancing Act</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet" />
+ </head>
+ <body>
     <main>
       <nav class="main-nav">
-        <img src="assets/elephant.svg" width="60" />
-        <img src="assets/dashboard.svg" width="35" />
-        <img src="assets/transactions.svg" width="35" />
-        <img src="assets/profile.svg" width="35" />
+        <img class="elephant" src="assets/elephant.svg" />
+        <img class="icon" src="assets/dashboard.svg" />
+        <img class="icon" src="assets/transactions.svg" />
+        <img class="icon" src="assets/profile.svg" />
       </nav>
       <header>
-        <h1>Balancing Act</h1>
+        <h2 class="intro-title">Balancing Act</h2>
       </header>
       <div>
-        <h2>Welcome, Oscar!</h2>
+        <h4 class="welcome-banner">Welcome, Oscar!</h4>
       </div>
       <!-- <nav class="main-nav">
         <img src="assets/elephant.svg" width="60" />
@@ -35,7 +36,7 @@
             <p>EXPENSES</p>
             <h3>$420.54</h3>
           </section>
-          <section class="income-box">
+          <section class="income-box credit-box">
             <p>CREDIT SCORE</p>
             <h3>673</h3>
           </section>
@@ -43,28 +44,94 @@
         <h4 class="long-boxes-title">Accounts</h4>
           <section class="long-boxes">
             <div class="long-box">
-              <img src="assets/checking.svg" width="25" />
+              <img class="bank-account-icons" src="assets/checking.svg" />
               <p class="bank-name">Wells Fargo</p>
               <p class="account">Checking</p>
             </div>
             <div class="long-box">
-              <img src="assets/savings.svg" width="25" />
+              <img class="bank-account-icons" src="assets/savings.svg" />
               <p class="bank-name">Wells Fargo</p>
               <p class="account">Saving</p>
             </div>
             <div class="long-box">
-              <img src="assets/credit-card.svg" width="25" />
+              <img class="bank-account-icons" src="assets/credit-card.svg" />
               <p class="bank-name">Amazon Credit</p>
               <p class="account">Credit Card</p>
             </div>
             <div class="long-box">
-              <img src="assets/credit-card.svg" width="25" />
+              <img class="bank-account-icons" src="assets/credit-card.svg" />
               <p class="bank-name">Southwest Credit</p>
               <p class="account">Credit Card</p>
             </div>
           </section>
-          <section class="recent-transactions">
-            <p><<strong>Recent Transactions</strong></p>
+          <section class="table-transactions" />
+            <div>Recent Transactions</div>
+            <table class="lines" rules=rows>
+              <tr>
+               <th>Date</th>
+               <th>Payee</th>
+               <th>Inflow</th>
+               <th>Outflow</th>
+              </tr>
+              <tr>
+                <td>Oct 25, 2019</td>
+                <td>Target</td>
+                <td>-</td>
+                <td>$82.35</td>
+              </tr>
+              <tr>
+                <td>Oct 24, 2019</td>
+                <td>Express</td>
+                <td>-</td>
+                <td>$212.24</td>
+              </tr>
+              <tr>
+                <td>Oct 22, 2019</td>
+                <td>Paycheck</td>
+                <td>$1,319.12</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Oct 21, 2019</td>
+                <td>Trader Joe's</td>
+                <td>-</td>
+                <td>$54.92</td>
+              </tr>
+              <tr>
+                <td>Oct 20, 2019</td>
+                <td>Shell</td>
+                <td>-</td>
+                <td>$46.23</td>
+              </tr>
+              <tr>
+                <td>Oct 19, 2019</td>
+                <td>Rent</td>
+                <td>$800.00</td>
+                <td>-</td>
+              </tr><tr>
+                <td>Oct 19, 2019</td>
+                <td>Hapa Sushi</td>
+                <td>-</td>
+                <td>$13.97</td>
+              </tr>
+              <tr>
+                <td>Oct 18, 2019</td>
+                <td>Pig Train</td>
+                <td>-</td>
+                <td>$4.83</td>
+              </tr>
+              <tr>
+                <td>Oct 18, 2019</td>
+                <td>RTD</td>
+                <td>-</td>
+                <td>$6.00</td>
+              </tr>
+            </table>
+
+
+
+
+
 
           </section>
 
