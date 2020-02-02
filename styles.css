@@ -25,11 +25,23 @@ body {
 
 }
 
+.left-side-page {
+  float: left;
+  border: 1px solid red;
+  width: 45%;
+  margin-left: 78px;
+}
+
+.welcome-details {
+  margin-left: 6%;
+
+}
+
 .intro-title {
   padding: inherit;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 96px;
+  margin-left: 100px;
   padding: 20px;
   width: 45%;
 }
@@ -37,16 +49,19 @@ body {
   background: linear-gradient(to right,#8ED1DC, #E3F4F6);
   margin-top: 0px;
   margin-bottom: 40px;
-  margin-left: 115px;
   width: 510px;
   padding: 20px;
   border-radius: 5px;
 }
 
-.click-button {
+.hide-me {
+  display: none;
+}
+
+#click-button {
   position: absolute;
   width: 10px;
-  right: 590px;
+  right: 790px;
   top: 110px;
 
 }
@@ -54,13 +69,13 @@ body {
   background-color: white;
   width:53px;
   height: 100%;
-  padding: 10px;
-  text-align: center;
+  padding: 10px 15px 10px 10px;
+  float: left;
   position: fixed;
 }
 
 .elephant {
-  width: 60px;
+  width: 65px;
   margin-bottom: 235px;
 }
 
@@ -70,8 +85,9 @@ body {
 
 .little-boxes {
   border: 0;
-  margin-left: 115px;
+  margin-left: 75px;
   width: 550px;
+  display:inline-block;
 }
 
 .income-box {
@@ -97,7 +113,7 @@ body {
 }
 
 .accounts-box {
-  margin-left: 115px;
+  margin-left: 75px;
   width: 550px;
 }
 
@@ -110,7 +126,7 @@ body {
 .long-boxes {
   border: 0;
   display: inline-block;
-  margin-left: 115px;
+  margin-left: 75px;
   width: 550px;
   border-radius: 5px;
 }
@@ -142,17 +158,14 @@ body {
   width: 165px;
 }
 
+.right-side-page {
+  float: left;
+  border: 1px solid green;
+  width: 45%;
+}
+
 .table-transactions {
-  border: 2px solid gold;
-  background-color: white;
   display: inline;
-  width: 35%;
-  padding-left: 55px;
-  height: 400px;
-  margin-top: -217px;
-  margin-right: 25px;
-  margin-left: 50px;
-  position: absolute;
 }
 
 .table-transactions h3 {
@@ -162,8 +175,4 @@ body {
 
 .rows {
   position:absolute;
-}
-
-.lines {
-  border-bottom: 1px;
 }
