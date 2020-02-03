@@ -1,6 +1,7 @@
 body {
   background-color: #F5F5F5;
   font-family: 'Biryani', sans-serif;
+  font-color: #363636
 }
 
 .button {
@@ -20,14 +21,13 @@ body {
   border-radius: 15px;
   padding: 7px 15px;
   font-size: small;
-  margin-top: -51px;
-  margin-right: 15px;
+  margin-top: -45px;
+  margin-right: 70px;
 
 }
 
 .left-side-page {
   float: left;
-  border: 1px solid red;
   width: 45%;
   margin-left: 78px;
 }
@@ -85,7 +85,7 @@ body {
 
 .little-boxes {
   border: 0;
-  margin-left: 75px;
+  margin-left: 40px;
   width: 550px;
   display:inline-block;
 }
@@ -113,7 +113,7 @@ body {
 }
 
 .accounts-box {
-  margin-left: 75px;
+  margin-left: 40px;
   width: 550px;
 }
 
@@ -126,7 +126,7 @@ body {
 .long-boxes {
   border: 0;
   display: inline-block;
-  margin-left: 75px;
+  margin-left: 40px;
   width: 550px;
   border-radius: 5px;
 }
@@ -160,8 +160,9 @@ body {
 
 .right-side-page {
   float: left;
-  border: 1px solid green;
   width: 45%;
+  background-color: #FFFFFF;
+  height: 550px;
 }
 
 .table-transactions {
@@ -169,10 +170,19 @@ body {
 }
 
 .table-transactions h3 {
-  padding: 0;
+  margin-left: 70px;
+  margin-bottom: 15px;
+  margin-top: 40px;
   font-size: large;
 }
 
-.rows {
-  position:absolute;
+table {
+  width: 500px;
+  height: 430px;
+  margin: auto;
+  position: relative;
+}
+
+th {
+  text-align: left;
 }
