@@ -186,3 +186,28 @@ table {
 th {
   text-align: left;
 }
+
+.trans-page-left {
+  border: 2px solid red;
+
+}
+
+.right-side-form {
+  float: left;
+  border: 1px solid green;
+  background-color: #FFFFFF
+  width: 45%;
+}
+
+.tables-one-two {
+  float: left;
+  width: 45%;
+  background-color: #FFFFFF;
+  height: 550px;
+
+
+}
+
+.form-new-transaction {
+  float: left;
+}
